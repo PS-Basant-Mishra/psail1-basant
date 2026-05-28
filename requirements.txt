@@ -7,3 +7,5 @@ pypdf
 python-dotenv
 tiktoken
 chromadb
+ollama
+sentence-transformers
