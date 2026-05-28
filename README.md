@@ -13,14 +13,10 @@ This project is a Proof of Concept (POC) for a Retrieval-Augmented Generation (R
 3.  **Framework**: LangChain is the orchestration framework used to connect the data source, the vector store, and the LLM.
 4.  **Interface**: A modern web interface built with HTML5, CSS3, and JavaScript, hosted on a Python Flask backend.
 
-## How It Works
-1.  **Ingestion**: The system reads this text file (or other uploaded documents).
-2.  **Chunking**: The text is split into smaller, manageable pieces to fit into the model's context window.
-3.  **Embedding**: Each chunk is converted into a numerical vector representing its meaning.
-4.  **Retrieval**: When a user asks a question, the system finds the most relevant chunks from the database.
-5.  **Generation**: The LLM receives the user's question along with the retrieved context to generate a precise answer.
+Refer to https://github.com/PS-Basant-Mishra/psail1-basant/blob/main/data.txt for more project reports. 
 
-## Advantages of RAG
-*   **Accuracy**: Reduces hallucinations by grounding the model in specific data.
-*   **Up-to-date**: Can answer questions about private or recent data that the base model wasn't trained on.
-*   **Cost-Effective**: No need to fine-tune a massive model; just update the vector database.
+<img width="814" height="346" alt="image" src="https://github.com/user-attachments/assets/9842184b-2e2b-4084-9e85-15fa6b175f8c" />
+
+<img width="778" height="396" alt="image" src="https://github.com/user-attachments/assets/c49870c5-bdef-4f1b-9dbd-5f44207634a1" />
+
+
